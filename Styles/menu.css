@@ -1,9 +1,29 @@
-menu{
+.menu{
+    padding: 28px 8%;
     width: 100%;
-    height: 28px 8%;
     top: 0;
     background-color: var(--color-primary-2);
     position: sticky;
     z-index: 3;
 
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    color: var(--color-primary-6);
+    size: 24px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
 }
