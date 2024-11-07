@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 30px;
     margin-top: 32px;
 }
 .card{
@@ -26,7 +26,7 @@
     width: 30%;
 }
 .card-image{
-    height: 60%;
+    height: 200px;
 }
 .card-heart{
     position: absolute;
@@ -40,4 +40,24 @@
     right: -10px;
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
+    transition: all 0.3s ease;
+}
+.card-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+.card-title{
+    font-size: 1.4rem;
+}
+.card-descricao{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.card-rate i {
+    color: var(--color-primary-1);
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
