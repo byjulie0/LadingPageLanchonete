@@ -49,3 +49,6 @@ a{
 .btn-padrao:hover{
     background-color: var(--color-primary-3);
 }
+@media screen and (max-width:1170px){
+    
+}

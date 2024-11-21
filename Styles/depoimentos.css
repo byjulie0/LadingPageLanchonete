@@ -48,3 +48,20 @@
 .feedbacks-content p span{
     color: var(--color- primary-6);
 }
+@media screen and (max-width:1170px){
+    #depoiment{
+        flex-direction: column;
+    }
+    .feedbacks{
+        flex-direction: column;
+    }
+    .img-chefe{
+        height: 250px;
+    }
+    .section-title{
+        font-size: 1.5rem;
+    }
+    .section-subtitle{
+        font-size: 1rem;
+    }
+}
